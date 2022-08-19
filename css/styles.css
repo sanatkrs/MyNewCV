@@ -1,0 +1,174 @@
+body
+  {
+
+    margin: 0;
+    text-align: center;
+
+  }
+p{
+  font-family: "Times New Roman", serif;
+
+
+}
+h1
+{
+  font-family:Sacramento,cursive;
+  margin-top: 0;
+  width:70%;
+  margin: 0 auto;
+  font-size: 5.625rem;
+  color: #66BFBF;
+  line-height: 2;
+
+}
+h2
+  {
+    width: 40%;
+    margin: 0 auto;
+    font-family: Merriweather;
+    font-size: 2.5;
+    color: #66BFBF;
+    font-weight: 100;
+  }
+h3{
+  font-family: Montserrat;
+  color: #11999E;
+}
+.footer-link
+{
+  color:#11999E;
+}
+.skill-row
+{
+  width:50%;
+  margin: 30px auto;
+  line-height: 2;
+
+}
+.skateboarding{
+  width:20%;
+  float:left;
+
+}
+.coding{
+  width: 17%;
+  float:right;
+  margin-left: 10px;
+
+}
+.coding-text{
+  text-align: justify;
+}
+
+.skateboarding-text{
+  text-align: justify;
+}
+.coding-heading{
+  margin: 0 auto;
+}
+.top-container
+{
+  background-color: #E0EBE8;
+  padding-top: 100px;
+  position: relative;
+}
+.top-cloud
+{
+  position: absolute;
+  top: 50px;
+  right:300px;
+  margin-bottom: 30px;
+}
+
+.bottom-cloud{
+position: absolute;
+}
+
+.underline{
+  text-decoration: underline;
+      }
+
+.btn,button {
+     background: #11999E;
+     border-radius: 0px;
+     color: #E2E6EA;
+     font-size: 10px;
+     font-weight: 100;
+     padding: 10px;
+     border: solid #337FED 1px;
+     text-decoration: none;
+     display: inline-block;
+     cursor: pointer;
+     text-align: center;
+     margin-bottom: 5px;
+  }
+
+  .btn:hover {
+     background: #1E62D0;
+     border-radius: 5px;
+     text-decoration: underline;
+  }
+  .bottom-container
+  {
+    background-color: #66BFBF;
+    padding:10px;
+  }
+
+  .footer-link
+    {
+      color:#11999e;
+      font-weight: 200;
+      font-size: 1rem;
+      text-decoration: none;
+      margin: 20px 40px;
+    }
+  .footer-link:hover
+    {
+      text-decoration: underline;
+    }
+    .copyright{
+      font-size: 0.5rem;
+
+    }
+    hr{
+      border-style:  dotted none none none;
+      width: 100px;
+      border-top-width: 7px;
+      border-color: grey;
+    }
+@media print {
+  h1{
+    color:green;
+    font-size: 2rem;
+
+  }
+
+}
+
+@media (max-width:900px) and (min-width:700px) {
+  h1{
+    color:green;
+    font-size: 2rem;
+  }
+  h2
+  {
+    font-size: 1.25rem;
+  }
+  .profile-pic{
+    width: 15%;
+  }
+  .skateboarding{
+    float:none;
+    width: 15%;
+  }
+  .coding{
+    float:none;
+    width: 15%;
+  }
+  .skill-row{
+    width: 90%;
+  }
+  .bottom-container{
+    padding:7px;
+  }
+}
